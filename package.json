@@ -1,0 +1,20 @@
+{
+  "name": "front-in-rio-16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "optimatization": "svgo -i src/original -o src/optimized",
+    "sprites": "spritesh -i src/optimized -o assets/sprite.svg --viewbox '0 0 48 48' --prefix icon-",
+    "buildAll": "npm run optimatization && npm run sprites"
+  },
+  "author": "Willian Justen de Vasconcellos <willianjustenqui@gmail.com> (http://willianjusten.com.br/)",
+  "license": "MIT",
+  "devDependencies": {
+    "spritesh": "^1.2.0",
+    "svgo": "^0.6.6"
+  },
+  "dependencies": {
+    "svgxuse": "^1.1.16"
+  }
+}
