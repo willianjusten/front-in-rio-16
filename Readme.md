@@ -14,3 +14,8 @@ npm install
 - `npm run sprites`: cria os sprites com o sprite.sh
 - `npm run buildAll`: otimiza e cria os sprites
 
+## Referências
+
+- [Flat Color Icons](https://github.com/icons8/flat-color-icons)
+- [SVGXUSE](https://github.com/Keyamoon/svgxuse)
+
